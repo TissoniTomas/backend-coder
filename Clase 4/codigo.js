@@ -126,3 +126,9 @@ const suma = (a,b)=>{
 }
 
 suma(5,5);
+
+suma(3,3)
+.then((res)=>{
+    return res + 5
+}).then((nuevoRes)=> console.log(nuevoRes))
+.then((res)=>console.log(res));
